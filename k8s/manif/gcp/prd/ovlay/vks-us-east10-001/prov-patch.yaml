@@ -1,0 +1,13 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prov
+  namespace: vks-admin
+spec:
+  template:
+    spec:
+      containers:
+      - env:
+        - name: USE_GO_VKBACKUP
+          value: "yes"
+        name: prov

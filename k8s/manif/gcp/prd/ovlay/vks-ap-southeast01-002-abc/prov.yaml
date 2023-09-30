@@ -1,3 +1,8 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prov
+  namespace: vks-admin
 spec:
   template:
     spec:

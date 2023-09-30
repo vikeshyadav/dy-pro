@@ -2,4 +2,4 @@ spec:
   template:
     spec:
       containers:
-      - name: provisioner
+      - name: prov

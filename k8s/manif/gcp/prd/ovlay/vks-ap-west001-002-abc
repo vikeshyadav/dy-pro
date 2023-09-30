@@ -1,0 +1,9 @@
+- path: goos-patch.yaml
+  target:
+    kind: Ingress
+    name: goos-agent
+
+- path: goos-patch.yaml
+  target:
+    kind: Ingress
+    name: goos-agent
